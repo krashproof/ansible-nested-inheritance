@@ -1,0 +1,15 @@
+[host1]
+127.0.0.1
+
+[host2]
+127.0.0.2
+
+[host3]
+127.0.0.3
+
+[exec]
+host1
+host2
+
+[eng]
+host3
