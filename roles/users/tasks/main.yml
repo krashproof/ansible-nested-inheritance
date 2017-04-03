@@ -1,5 +1,4 @@
 ---
 - name: Add user accounts
   user: name={{ item }} password={{ password }} shell=/bin/bash 
-  with_items: user_list_name
-  #with_items: "{{ user_list_name }}"
+  with_items: "{{ user_list_name }}"
